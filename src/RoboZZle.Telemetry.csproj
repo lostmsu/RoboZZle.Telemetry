@@ -8,7 +8,7 @@
 
         <!-- package metadata -->
         <AssemblyName>RoboZZle.Telemetry</AssemblyName>
-        <Version>1.2.0</Version>
+        <Version>1.2.1</Version>
         <Description>RoboZZle AI telemetry</Description>
         <Authors>Victor Nova</Authors>
         <Product>Rob AI</Product>

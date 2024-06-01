@@ -5,9 +5,9 @@ using System.Runtime.Serialization;
 [DataContract]
 public sealed class TelemetrySource {
     [DataMember]
-    public required string Product { get; init; }
+    public required string Product { get; set; }
     [DataMember]
-    public required string Version { get; init; }
+    public required string Version { get; set; }
     [DataMember]
     public bool IsTest { get; set; }
 
