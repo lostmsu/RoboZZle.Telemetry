@@ -1,0 +1,55 @@
+﻿<Class
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns="urn:www.twigletsoftware.com:schemas:txtemplate:1:0">
+    <Imports/>
+    <Java>String</Java>
+    <Name>RoboZZle.Core.Command</Name>
+    <Uses/>
+    <Casts/>
+    <Methods>
+        <Method>
+            <Imports>
+                <Import>com.team242.robozzle.model.Command</Import>
+            </Imports>
+            <Java>Command.Parse(${str}, ${offset})</Java>
+            <Params>
+                <Param>
+                    <Type>System.String</Type>
+                    <Name>str</Name>
+                </Param>
+                <Param>
+                    <Type>System.Int32</Type>
+                    <Name>offset</Name>
+                </Param>
+            </Params>
+            <Name>Parse</Name>
+            <Return>RoboZZle.Core.Command</Return>
+        </Method>
+        <Method>
+            <Imports>
+                <Import>com.team242.robozzle.model.Command</Import>
+            </Imports>
+            <Java>Command.Parse(${action}, ${condition})</Java>
+            <Params>
+                <Param>
+                    <Type>System.Char</Type>
+                    <Name>action</Name>
+                </Param>
+                <Param>
+                    <Type>System.Char</Type>
+                    <Name>condition</Name>
+                </Param>
+            </Params>
+            <Name>Parse</Name>
+            <Return>RoboZZle.Core.Command</Return>
+        </Method>
+        <Method>
+            <Imports/>
+            <Java>${this:16}</Java>
+            <Params/>
+            <Name>AsString</Name>
+            <Return>System.String</Return>
+        </Method>
+    </Methods>
+</Class>

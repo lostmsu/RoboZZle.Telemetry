@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RoboZZle.Telemetry.TelemetryBag">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <AssociationLine Name="Solutions" Type="RoboZZle.Telemetry.SolutionTelemetry">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.102" Y="0.085" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TelemetryBag.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Solutions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="RoboZZle.Telemetry.SolutionTelemetry">
+    <Position X="3" Y="5" Width="2" />
+    <AssociationLine Name="Sessions" Type="RoboZZle.Telemetry.SessionLog">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.235" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>SolutionTelemetry.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Sessions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="RoboZZle.Telemetry.SessionLog">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>SessionLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

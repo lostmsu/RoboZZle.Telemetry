@@ -1,0 +1,33 @@
+﻿<Class
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns="urn:www.twigletsoftware.com:schemas:txtemplate:1:0">
+	<Imports>
+		<Import>android.util.Log</Import>
+	</Imports>
+	<Java>Log</Java>
+	<Name>RoboZZle.Core.DebugEx</Name>
+	<Uses/>
+	<Casts/>
+	<Methods>
+		<Method>
+			<Imports>
+				<Import>CS2JNet.System.StringSupport</Import>
+				<Import>CS2JNet.JavaSupport.util.LocaleSupport</Import>
+			</Imports>
+			<Java>Log.d("ROB AI", String.format(LocaleSupport.INVARIANT, StringSupport.CSFmtStrToJFmtStr(${fmt})${,*]1}))</Java>
+			<Params>
+				<Param>
+					<Type>System.String</Type>
+					<Name>fmt</Name>
+				</Param>
+			</Params>
+			<ParamArray>
+				<Type>System.Object[]</Type>
+				<Name>arg</Name>
+			</ParamArray>
+			<Name>WriteLine</Name>
+			<Return>System.Void</Return>
+		</Method>
+	</Methods>
+</Class>

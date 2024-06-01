@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoboZZle.Telemetry", "src\RoboZZle.Telemetry.csproj", "{420C331F-57DD-4732-8A9E-E155121C92EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telemetry.Tests", "tests\Telemetry.Tests.csproj", "{83B34EB4-6943-4212-BCE2-ECB5C93B48F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo", "Repo", "{1EF3FC3F-F0AD-4D41-AA36-6B93A74099FA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI", "CI", "{EDEF9782-82F9-488F-9DBA-E80FFA7834B8}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\master.yml = .github\workflows\master.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{420C331F-57DD-4732-8A9E-E155121C92EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420C331F-57DD-4732-8A9E-E155121C92EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420C331F-57DD-4732-8A9E-E155121C92EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420C331F-57DD-4732-8A9E-E155121C92EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B34EB4-6943-4212-BCE2-ECB5C93B48F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B34EB4-6943-4212-BCE2-ECB5C93B48F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B34EB4-6943-4212-BCE2-ECB5C93B48F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B34EB4-6943-4212-BCE2-ECB5C93B48F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A820291-D055-4007-A049-8CFA749FD1E8}
+	EndGlobalSection
+EndGlobal
